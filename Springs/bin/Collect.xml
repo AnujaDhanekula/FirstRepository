@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+                http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+                  
+                <bean id="collect" class="setterInjection.Collect">
+                
+                <property name="id"> 
+                <value>1 </value>
+                </property>
+                
+                <property name="name">
+                 <value> What is your Name and Do you Live
+                 </value>
+                 </property>
+                 
+                <property name="address">
+                <list>
+                <value> I am Anuja Dhanekula</value>
+               	</list>
+                 </property>
+                </bean>
+                
+                <bean id="address" class="setterInjection.Address" autowire="byName">
+                
+                <property name="addressLine"> <value>Raghuram Nagar</value> </property>
+                <property name="city"><value>sap</value> </property>
+                <property name="state"><value>Ap</value> </property>
+                <property name="country"><value>India</value> </property>
+                
+               	</bean>
+                
+                </beans>

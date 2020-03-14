@@ -1,0 +1,16 @@
+package category;
+
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+
+@Category({PerformancesTests.class, RegressionTests.class})
+public class FunctionTest2 
+{
+	
+		@Test
+	    public void test_b_1() 
+	    {
+	        assertThat(1 == 1, is(true));
+	    }
+}
+

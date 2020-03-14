@@ -1,0 +1,51 @@
+package java;
+
+import java.util.Scanner;
+
+public class Program2 
+{
+	
+	public void add(int a,int b,int c)
+	{
+		if(a!=13 && b!=13 && c!=13)
+		{
+			int result=(a+b+c);
+			System.out.println("The Sum of the given three numbers is:"+result);
+		}
+		else if(a!=13 && b!=13 && c==13)
+		{
+			int result=(a+b);
+			System.out.println("The Sum of the two numbers is:"+result);
+		}
+		else if(a!=13 && b==13 && c!=13)
+		{
+			int result =a;
+			System.out.println("the Sum is :"+result);
+		}
+		else
+		{
+			System.out.println("The given numbers consists of 13 summation doesnot works");
+		}
+	}
+	
+	public static void main(String[] args) 
+	{
+		Scanner sc= new Scanner(System.in);
+		
+		System.out.println("Enter a value:");
+		int a=sc.nextInt();
+		
+		System.out.println("Enter b value:");
+		int b=sc.nextInt();
+		
+		System.out.println("Enter c value:");
+		int c=sc.nextInt();
+		
+		
+		Program2 obj= new Program2();
+		obj.add();
+		
+		
+	}
+
+}

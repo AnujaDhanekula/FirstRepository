@@ -1,0 +1,16 @@
+package unittesting;
+
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+
+@RunWith(Suite.class)
+@Suite.SuiteClasses({
+	AssertionExample.class,
+	Junit1Class.class
+	
+					})
+
+public class TestSuite 
+{
+
+}

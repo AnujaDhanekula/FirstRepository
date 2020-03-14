@@ -1,0 +1,24 @@
+package unittesting;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+public class JunitTestClass 
+{
+	@Test
+	public void test2()
+	{
+		System.out.println("This is my Test2......");
+	}
+	@BeforeEach
+	public void preMethod()
+	{
+		System.out.println("This will be executed before test cases.....");
+	}
+	
+	@Test
+	public void test1()
+	{
+		System.out.println("This is my Test1......");
+	}
+}

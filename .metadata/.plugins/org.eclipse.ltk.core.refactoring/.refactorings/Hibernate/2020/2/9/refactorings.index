@@ -1,0 +1,3 @@
+1582887074694	Move 'hibernate.properties' to 'src'
+1582888329449	Rename resource 'hibernate.cfg.xml'
+1582890023380	Rename resource 'a.cfg.xml'

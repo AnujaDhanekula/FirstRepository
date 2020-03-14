@@ -1,0 +1,22 @@
+package category;
+
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+
+public class FunctionTest2 
+{
+	@Category(RegressionTests.class)
+	@Test
+	public void test1()
+	{
+	System.out.println("Inside the RegressionTests of FunctionTest2");
+	}
+	
+	@Category(PerformancesTests.class)
+	@Test
+	public void test2()
+	{
+	System.out.println("Inside the PerformancesTests of FunctionTest2");
+	}
+}
+

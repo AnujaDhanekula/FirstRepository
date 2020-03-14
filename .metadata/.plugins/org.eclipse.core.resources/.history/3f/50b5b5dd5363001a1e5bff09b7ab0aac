@@ -1,0 +1,11 @@
+package unittesting;
+
+import org.junit.jupiter.api.Test;
+
+public class Junit2Class {
+	@Test
+	public void test2() {
+		System.out.println("Inside test2");
+	}
+
+}

@@ -1,0 +1,20 @@
+package category;
+
+public class FunctionTest1 
+{
+	@Category(RegressionTests.class)
+	@Test
+	public void test3()
+	{
+	System.out.println("Inside the RegressionTests of FunctionTest1");
+	}
+	@Category(PerformancesTests.class)
+	@Test
+	public void test4()
+	{
+	System.out.println("Inside the PerformanceTest of FunctionTest1");
+	}
+	}
+
+	}
+}

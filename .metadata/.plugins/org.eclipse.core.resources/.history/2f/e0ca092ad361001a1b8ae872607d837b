@@ -1,0 +1,38 @@
+package unittesting;
+
+import org.junit.jupiter.api.*;
+
+public class JunitTestClass 
+{
+	@BeforeAll
+	public void beforeClassBegins()
+	{
+		System.out.println("This method will execute before begining of class.");
+	}
+	@AfterAll
+	public void afterClassDone()
+	{
+		System.out.println("This method will execute after class is done.");
+	}
+	@Test
+	public void test2()
+	{
+		System.out.println("This is my Test2......");
+	}
+	@BeforeEach
+	public void preMethod()
+	{
+		System.out.println("This will be executed before every test cases.....");
+	}
+	
+	@Test
+	public void test1()
+	{
+		System.out.println("This is my Test1......");
+	}
+	@AfterEach
+	public void postMethod()
+	{
+		System.out.println("This will be executed after every test case......");
+	}
+}

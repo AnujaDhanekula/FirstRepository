@@ -1,0 +1,9 @@
+package unittesting;
+
+@RunWith(Suite.class)
+@Suite.SuiteClasses({JunitTestClass.class,AssertionExample.class})
+
+public class TestSuite 
+{
+
+}

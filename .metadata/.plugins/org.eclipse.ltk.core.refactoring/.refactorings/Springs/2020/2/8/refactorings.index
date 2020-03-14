@@ -1,0 +1,16 @@
+1581929668621	Move 'list.xml' to 'src'
+1582178553192	Move 'Questions.xml' to 'src'
+1582180782615	Delete element
+1582181597834	Delete element
+1582181855672	Rename resource 'application-context.xml'
+1582181862899	Move 'application-contextSET.xml' to 'src'
+1582189655295	Delete element
+1582261257569	Delete element
+1582267778472	Rename compilation unit 'CRefereshEventHandler.java'
+1582267844051	Rename compilation unit 'CRefereshedEventHandler.java'
+1582268059176	Convert local variable 'context' to field
+1582268244221	Move 'Beans.xml' to 'src'
+1582279094060	Rename type 'Employe'
+1582279191754	Rename type 'EmployeDao'
+1582279541575	Move 'SpringJDBC.xml' to 'src'
+1582348321343	Rename type 'Student'

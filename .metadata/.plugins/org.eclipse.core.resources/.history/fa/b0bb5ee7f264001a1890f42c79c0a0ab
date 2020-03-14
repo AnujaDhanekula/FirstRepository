@@ -1,0 +1,13 @@
+package category;
+
+import org.junit.runner.RunWith;
+import org.junit.experimental.categories.*;
+@RunWith(Categories.class)
+@Categories.IncludeCategory({PerformanceTests.class,RegressionsTests.class})
+@Categories.IncludeCategory(PerformanceTests.class)
+@Categories.ExcludeCategory(RegressionsTests.class)
+
+public class TestSuite 
+{
+
+}

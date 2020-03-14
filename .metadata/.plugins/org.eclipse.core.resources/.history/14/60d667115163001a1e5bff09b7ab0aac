@@ -1,0 +1,18 @@
+package unittesting;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+public class AssertionExample {
+
+	public static void main(String[] args) 
+	{
+		@Test
+		public void test1()
+		{
+			String str=null;
+			Assertions.assertEquals("String","String");
+		}
+	}
+
+}

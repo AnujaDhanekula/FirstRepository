@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;Spring-bean.xml&apos; to &apos;ServletChaining&apos;" description="Move &apos;Spring-bean.xml&apos; to &apos;ServletChaining&apos;" destination="/ServletChaining" element1="/Springs/Spring-bean.xml" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1581746498259" updateReferences="true"/>
+</session>
